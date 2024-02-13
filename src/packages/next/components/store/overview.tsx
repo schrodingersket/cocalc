@@ -54,8 +54,10 @@ export default function Overview() {
           on-site and use compute resources that you already have.
         </Product>
         <Product href={"/store/vouchers"} icon="gift" title="Vouchers">
-          Purchase a <A href={"/vouchers"}>voucher code</A> and gift it to
-          someone else.
+          <A href="/store/vouchers">Purchase a voucher code</A> and gift it to
+          someone else, or visit the <A href="/vouchers">voucher center</A> to manage
+          or redeem your vouchers.
+
         </Product>
       </OverviewRow>
       <Paragraph style={{ marginTop: "4em" }}>
